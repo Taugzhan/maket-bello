@@ -1,0 +1,659 @@
+body {
+    font-family: 'Work Sans', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+li{
+    list-style-type: none;
+}
+
+button {
+    background-color: transparent;
+    cursor: pointer;
+    border: none;
+}
+
+.container {
+    max-width: 1130px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+/* header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 35px 60px;
+
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+}
+
+.nav__link {
+    margin-left: 22px;
+    color: #1D253C;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.2px;
+}
+
+.link__blue {
+    color: #007188;
+    text-decoration: underline;
+}
+
+.header__btn {
+    margin-left: 39px;
+    border-radius: 4px;
+    border: 1px solid rgba(29, 37, 60, 0.20);
+    color: #1D253C;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16.8px;
+    text-transform: uppercase;
+    padding: 14px 31px;
+}
+
+hr {
+    border: none; 
+    height: 1px; 
+    background-color: #e8e7e7; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); 
+}
+
+/* header */
+
+/* hero */
+.hero {
+    background-image: url(./images/hero\ 1.png);
+    height: calc(100vh - 105px);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+    padding-top: 223px;
+}
+
+.hero__container {
+    max-width: 1194px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.hero__wrapper {
+    max-width: 463px;
+}
+
+.hero__subtitle {
+    color: #F46752;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 27px;
+    text-transform: uppercase;
+}
+
+.hero__title {
+    color: #1D253C;
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 68px;
+    text-transform: capitalize;
+}
+
+.hero__desc {
+    color: #5A6482;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 33px;
+    margin: 23px 0 40px;
+}
+
+.hero__btn {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19.2px;
+    text-transform: uppercase;
+    border-radius: 4px;
+    border: 1px solid rgba(29, 37, 60, 0.20);
+    background-color: #F46752;
+    padding: 21px 29px;
+}
+
+/* hero */
+
+/* section */
+
+.section {
+    padding: 85px 0;
+}
+
+.section__wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 144px;
+}
+
+.section__img {
+    height: 436px;
+}
+
+.section__img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.section__right {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.section__subtitle {
+    color: #F46752;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16.8px;
+    text-transform: uppercase;
+}
+
+.section__title {
+    margin: 26px 0 19px;
+    color: #1D253C;
+    font-size: 44px;
+    font-weight: 600;
+    line-height: 52px;
+}
+
+.section__desc {
+    color: #5A6482;
+    font-size: 19px;
+    line-height: 30px;
+}
+
+.section__btn {
+    margin-top: 32px;
+    color: #126F86;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21.6px;
+}
+
+/* section */
+
+/* secure */
+.secure {
+    background-color: #F9F5F2;
+}
+
+/* secure */
+
+/* technology */
+.technology__img {
+    position: relative;
+}
+
+.technology__image {
+    width: 100%;
+    height: 100%;
+    z-index: 99;
+
+}
+
+
+.tech-absolute {
+    position: absolute;
+    width: 195px;
+    height: 124px;
+    top: -35px;
+    left: -45px;
+    z-index: -1;
+}
+.tech-text-absolute{
+    position: absolute;
+    z-index: -1;
+  
+}
+
+/* technology */
+.technology{
+    position: relative;
+}
+
+/* visit */
+.visit {
+    background-color: #F9F5F2;
+    position: relative;
+    z-index: -1;
+}
+
+.visit__wrapper {
+    column-gap: 102px;
+}
+
+
+/* visit */
+
+/* insurance */
+
+.insurance {
+    background: #F8F8F8;
+    position: relative;
+}
+
+.umbrella__img {
+    position: absolute;
+    left: 35%;
+    bottom: 75%;
+}
+
+.dog__img {
+    position: absolute;
+    right: -2px;
+    bottom: -50px;
+    z-index: 99;
+}
+
+.insurance__wrapper {
+    padding: 90px 0 85px;
+}
+
+.insurance__subtitle {
+    color: #F46752;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16.8px;
+    text-transform: uppercase;
+}
+
+.insurance__title {
+    margin: 30px 0 37px;
+    color: #1D253C;
+    text-align: center;
+    font-size: 43px;
+    font-weight: 500;
+    line-height: 52px;
+}
+
+.insurance__desc {
+    color: #5A6482;
+    text-align: center;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.insurance__boxes {
+    display: flex;
+    justify-content: space-between;
+    padding: 41px 0 85px;
+
+}
+
+.insurance__box-top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 70px 45px 72px 63px;
+    background-color: white;
+
+}
+
+.box__title {
+    color: #1D253C;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.box__desc {
+    color: #5A6482;
+    text-align: center;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 25.6px;
+}
+
+.box__desc-und {
+    color: #1D253C;
+    text-align: center;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 25.6px;
+    text-decoration: underline;
+}
+
+.insurance__box-expert {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 37px;
+    background-color: white;
+    margin: 0 70px;
+}
+
+.insurance__box-care {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 44px 31px;
+    background-color: white;
+
+}
+
+/* insurance */
+
+/* affordable */
+.affordable {
+    padding: 120px 0 100px;
+    background-color: #363839;
+    position: relative;
+    z-index: -1;
+    background-image: url(./images/confetti\ 1.png);
+    background-repeat: no-repeat;
+    background-position: center right;
+    
+}
+
+.affordable__subtitle {
+    color: #F46752;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16.8px;
+    text-transform: uppercase;
+}
+
+.affordable__title {
+    color: #FFF;
+    text-align: center;
+    font-size: 44px;
+    font-weight: 500;
+    line-height: 52px;
+    margin: 26px 0 14px;
+}
+
+.affordable__desc {
+    color: #ACB4BF;
+    text-align: center;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 30px;
+    max-width: 731px;
+    margin: 0 auto;
+}
+.affordable__first{
+    width: 33px;
+    height: 66px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 1;
+
+}
+.affordable__first svg{
+    position: absolute;
+    z-index: -99;
+    bottom: 15px;
+    right: -14px;
+}
+.affordable__second{
+    width: 43px;
+    height: 60px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 1;
+}
+.affordable__second svg{
+    position: absolute;
+    z-index: -99;
+    bottom: 14px;
+    left: -5px;
+}
+.affordable__third{
+    width: 44px;
+    height: 62px;
+    margin: 0 auto;
+    position: relative; 
+    z-index: 1;
+
+}
+.affordable__third svg{
+    position: absolute;
+    z-index: -99;
+    left: 0;
+    top: 10px;
+}
+
+.affordable__rain{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.affordable__rain-2{
+    position: absolute;
+    right: -44px;
+    top: 10px;
+
+
+}
+.affordable__dots{
+    position: absolute;
+    right: -310px;
+    top: -150px;
+    z-index: -1;
+}
+
+.affordable__cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 130px;
+    margin-top: 73px;
+    background-image: url(./images/affordable__bg.png);
+background-repeat: no-repeat;
+background-position: top center;  
+}
+
+.affordable__card {
+    text-align: center;
+    position: relative;
+}
+
+.affordable__card-title {
+    color: #FFF;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 22px;
+    margin: 14px 0;
+}
+
+.affordable__card-desc {
+    color: #ACB4BF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+.affordable__btn{
+    display: block;
+    color: #FFF;
+font-size: 16px;
+font-weight: 400;
+line-height: 19.2px;
+text-transform: uppercase;
+border-radius: 4px;
+border: 1px solid rgba(29, 37, 60, 0.20);
+background: #F46752;
+padding: 23px 29px;
+width: 210px;
+margin: 0 auto;
+margin-top:32px;
+}
+/* affordable */
+
+
+
+/* sections */
+.sections{
+    padding: 160px 0 132px;
+}
+.sections__wrapper{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    column-gap: 20px;
+}
+.sections__calculator{
+    background-color: rgba(169, 216, 255, 0.30);
+    padding: 40px 0 35px 22px;
+}
+.sections__terms{
+    background-color: rgba(255, 174, 104, 0.30);
+    padding: 40px 0 35px 22px;
+}
+.sections__price{
+    background-color: rgba(250, 82, 64, 0.30);
+    padding: 40px 0 35px 22px;
+
+}
+.sections__insuranc{
+    background-color: rgba(18, 111, 133, 0.30);
+    padding: 40px 0 35px 22px;
+}
+.calc__title{
+    color: #7CAFDD;
+font-size: 34px;
+font-weight: 600;
+line-height: 42px;
+}
+.terms__title{
+    color: #E79751;
+font-size: 33px;
+font-weight: 600;
+line-height: 42px;
+}
+.price__title{
+    color: #FA5240;
+font-size: 34px;
+font-weight: 600;
+line-height: 42px; 
+}
+.insuranc__title{
+    color: #126F85;
+font-size: 34px;
+font-weight: 600;
+line-height: 42px; 
+}
+.sections__desc{
+    color: #5A6482;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.2px;
+    padding: 65px 0 84px;
+}
+.calc__btn{
+    color: #7CAFDD;
+font-size: 16px;
+font-weight: 600;
+line-height: 19.2px; 
+}
+.terms__btn{
+    color: #E79751;
+font-size: 16px;
+font-weight: 600;
+line-height: 19.2px; 
+}
+.price__btn{
+    color: #FA5240;
+font-size: 16px;
+font-weight: 600;
+line-height: 19.2px;
+}
+.insuranc__btn{
+    color: #126F85;
+font-size: 16px;
+font-weight: 400;
+line-height: 19.2px; 
+}
+/* sections */
+
+/* start */
+.start{
+    background-color: #E5F3FE;
+    position: relative;
+}
+.start__absolute{
+    position: absolute;
+    z-index: 99;
+    bottom: 0px;
+    left: 50px;
+}
+.start__absolute-girl{
+    position: absolute;
+    right: 190px;
+    bottom: 0px;
+}
+
+.start__wrapper{
+    padding: 100px 0;
+    text-align: center;
+}
+.start__title{
+    color: #1D253C;
+font-size: 44px;
+font-weight: 600;
+line-height: 52px; 
+}
+.start__desc{
+    color: #676562;
+font-size: 19px;
+font-weight: 400;
+line-height: 30px;
+margin: 8px 0 39px;
+}
+.start__btn{
+    color: #FFF;
+font-size: 16px;
+font-weight: 400;
+line-height: 19.2px;
+text-transform: uppercase;
+border-radius: 4px;
+border: 1px solid rgba(29, 37, 60, 0.20);
+background: #F46752;
+padding: 21px 35px;
+}
+/* start */
+
+/* footer */
+.footer__wrapper{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+.footer__left{
+    padding-top: 75px;
+}
+
+.footer__desc{
+    color: #5A6482;
+font-size: 14px;
+font-weight: 400;
+line-height: 23px; 
+margin-top: 20px;
+margin-bottom: 30px;
+}
+.footer__right{
+    margin-top: 75px;
+    display: grid;
+    grid-template-columns: 4fr 3fr 1fr;
+    margin-left: 180px;
+    line-height: 3;
+    color: #5A6482;
+}
